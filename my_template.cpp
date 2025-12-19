@@ -6,6 +6,7 @@ using ll = long long;
 #define sz(x) (ll)(x).size()
 #define f0(i, n) for(ll i = 0; i < n; i++)
 #define f1(i, n) for(ll i = 1; i <= n; i++)
+#define testcase ll t; cin >> t; while(t--)
 void solve()
 {
     
@@ -22,4 +23,5 @@ int32_t main()
         solve();
     }
     return 0;
+
 }
